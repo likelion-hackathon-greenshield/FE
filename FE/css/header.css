@@ -1,0 +1,60 @@
+body {
+  background-color: #f3faed;
+}
+
+/* 헤더(top bar) */
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  padding: 0 120px;
+  height: 80px;
+}
+header p {
+  margin: 0 20px;
+
+  font-weight: 500;
+  font-size: 23px;
+}
+header img.img-AnonymousProfile {
+  width: 60px;
+  height: 60px;
+}
+
+/* 네비게이션 바 */
+nav {
+  background-color: #bae3b3;
+  padding: 0 120px;
+  height: 80px;
+}
+nav div.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 80px;
+}
+nav div.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav h1 {
+  width: 206px;
+  height: 36px;
+
+  font-weight: 500;
+  font-size: 35px;
+}
+nav a {
+  margin-left: 64px;
+
+  font-weight: 500;
+  font-size: 25px;
+  letter-spacing: -0.5px;
+  text-decoration: none;
+}
+nav a.selected {
+  color: #5a976b;
+}
