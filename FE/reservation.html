@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- reset css입니다. 우선순위 문제로 개별 페이지 css는 아래쪽에 배치해주세요.(아래쪽이 더 높은 우선순위) -->
+    <link rel="stylesheet" href="./css/resetCSS.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/reservation.css" />
+  </head>
+  <body>
+    <!-- 헤더(top bar) -->
+    <header>
+      <!-- 로그인 -->
+      <p class="user">사용자 님</p>
+      <div>
+        <img
+          src="./img/AnonymousProfile_60x60.png"
+          alt="img"
+          class="img-AnonymousProfile"
+        />
+      </div>
+      <!-- 로그아웃 -->
+      <p class="logout">로그아웃</p>
+    </header>
+    <!-- 네비게이션 바 -->
+    <nav>
+      <div class="container">
+        <div>
+          <h1>Green Shield</h1>
+          <!-- 차후 로고 추가 예정 <img src="" alt="img" /> -->
+        </div>
+        <div class="nav-list">
+          <a href="" class="selected">환경 호르몬 노출 평가</a>
+          <a href="">맞춤형 계획표</a>
+          <a href="">커뮤니티</a>
+          <a href="">추천 상품</a>
+          <a href="">전문가 상담/예약</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- 전문가 예약 페이지(reservation page) -->
+    <section>
+      <h1 class="page-name">전문가 리스트</h1>
+      <ol class="expert-lists">
+        <li class="expert-list">
+          <div class="img-back_reservation_expert">
+            <img
+              src="./img/back_reservation_expert_300x349.png"
+              alt="img"
+              class="img-back_reservation_expert"
+            />
+          </div>
+          <div class="container">
+            <div class="info-container">
+              <h4 class="name">John Wilson</h4>
+              <p class="location">서울특별시</p>
+              <p class="introduce">
+                환경환경건강클리닉은 생활 환경과 직업 환경을 포괄한 환경의
+                유해물질 노출로 인한 건강 문제를 해결함과 더불어 개인에게 필요한
+                필요한 의학적 평가와 인과관계 평가에 대한 자문 또한 제공합니다.
+              </p>
+            </div>
+            <button>예약하기</button>
+          </div>
+        </li>
+        <li class="expert-list">
+          <div class="img-back_reservation_expert">
+            <img
+              src="./img/back_reservation_expert_300x349.png"
+              alt="img"
+              class="img-back_reservation_expert"
+            />
+          </div>
+          <div class="container">
+            <div class="info-container">
+              <h4 class="name">John Wilson</h4>
+              <p class="location">서울특별시</p>
+              <p class="introduce">
+                환경환경건강클리닉은 생활 환경과 직업 환경을 포괄한 환경의
+                유해물질 노출로 인한 건강 문제를 해결함과 더불어 개인에게 필요한
+                필요한 의학적 평가와 인과관계 평가에 대한 자문 또한 제공합니다.
+              </p>
+            </div>
+            <button>예약하기</button>
+          </div>
+        </li>
+      </ol>
+    </section>
+  </body>
+</html>
