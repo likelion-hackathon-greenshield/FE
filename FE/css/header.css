@@ -11,11 +11,17 @@ header {
   padding: 0 120px;
   height: 80px;
 }
-header p {
+header p.user {
   margin: 0 20px;
 
   font-weight: 500;
   font-size: 23px;
+}
+header p.logout {
+  margin-left: 37px;
+
+  font-weight: 500;
+  font-size: 19px;
 }
 header img.img-AnonymousProfile {
   width: 60px;
