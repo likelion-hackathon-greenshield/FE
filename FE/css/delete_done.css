@@ -1,0 +1,52 @@
+body {
+  background-color: #f3faed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.delete_done_all {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.delete_done1 {
+  font-size: 20px;
+  font-weight: bold;
+
+  color: #5a976b;
+
+  margin-bottom: 30px;
+}
+
+.delete_done2 {
+  font-size: 20px;
+
+  margin-bottom: 40px;
+}
+
+.delete_done3 {
+  font-size: 17px;
+  color: black;
+  font-weight: bold;
+}
+
+.delete_done3 a {
+  color: black;
+}
+
+.delete_done3 a:visited {
+  color: black;
+}
+
+.delete_done3 a:hover {
+  color: black;
+}
+
+.delete_done3 a:active {
+  color: black;
+}

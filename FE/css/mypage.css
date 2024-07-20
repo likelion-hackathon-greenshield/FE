@@ -1,0 +1,225 @@
+.logout_text {
+  font-size: 20px;
+  font-weight: bold;
+}
+.logout {
+  margin-left: 50px;
+}
+
+/*여기까지 다른 페이지랑 동일 */
+
+.middle_box_left_and_right {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 130px;
+}
+
+/*middle_box_left */
+
+.middle_box_left {
+  display: flex;
+  flex-direction: column;
+}
+
+.middle_box_left_logout_box {
+  width: 120px;
+  height: 40px;
+  border: solid 2px #bae3b3;
+  border-radius: 15px;
+  background-color: #bae3b3;
+
+  margin-top: 5px;
+  margin-left: 11px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.middle_box_left_logout_text {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/* middle_box_right */
+
+.middle_box_right {
+  margin-top: 25px;
+  margin-left: 15px;
+}
+
+.middle_box_right_name_and_money {
+  display: flex;
+  flex-direction: row;
+
+  margin-bottom: 10px;
+}
+
+.middle_box_right_name {
+  font-size: 22px;
+  font-weight: bold;
+
+  margin-right: 8px;
+}
+
+.middle_box_right_money {
+  font-size: 12px;
+  font-weight: bold;
+  color: #5a976b;
+
+  margin-top: 12px;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+}
+
+.nickname {
+  font-size: 20px;
+  color: grey;
+
+  margin-bottom: 10px;
+}
+
+.birth {
+  font-size: 20px;
+  color: grey;
+
+  margin-bottom: 10px;
+}
+
+.email {
+  font-size: 20px;
+  color: grey;
+
+  margin-bottom: 10px;
+}
+
+.number {
+  font-size: 20px;
+  color: grey;
+}
+
+/*bottom 시작 */
+
+.bottom_box_123 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-top: 160px;
+}
+
+/*box1*/
+.bottom_box1 {
+  width: 220px;
+  height: 70px;
+  border: solid 2px #bae3b3;
+  border-radius: 6px;
+  background-color: #bae3b3;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom_box1_text {
+  font-size: 15px;
+  color: black;
+  font-weight: bold;
+}
+
+.bottom_box1_text a {
+  color: black;
+  text-decoration: none;
+}
+
+.bottom_box1_text a:visited {
+  color: black;
+}
+
+.bottom_box1_text a:hover {
+  color: black;
+}
+
+.bottom_box1_text a:active {
+  color: black;
+}
+
+/*box2*/
+.bottom_box2 {
+  width: 220px;
+  height: 70px;
+  border: solid 2px #bae3b3;
+  border-radius: 6px;
+  background-color: #bae3b3;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom_box2_text {
+  font-size: 15px;
+  color: black;
+  font-weight: bold;
+}
+
+.bottom_box2_text a {
+  color: black;
+  text-decoration: none;
+}
+
+.bottom_box2_text a:visited {
+  color: black;
+}
+
+.bottom_box2_text a:hover {
+  color: black;
+}
+
+.bottom_box2_text a:active {
+  color: black;
+}
+
+/*box3*/
+.bottom_box3 {
+  width: 220px;
+  height: 70px;
+  border: solid 2px #bae3b3;
+  border-radius: 6px;
+  background-color: #bae3b3;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom_box3_text {
+  font-size: 15px;
+  color: black;
+  font-weight: bold;
+}
+
+.bottom_box3_text a {
+  color: black;
+  text-decoration: none;
+}
+
+.bottom_box3_text a:visited {
+  color: black;
+}
+
+.bottom_box3_text a:hover {
+  color: black;
+}
+
+.bottom_box3_text a:active {
+  color: black;
+}
