@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- reset css입니다. 우선순위 문제로 개별 페이지 css는 아래쪽에 배치해주세요.(아래쪽이 더 높은 우선순위) -->
+    <link rel="stylesheet" href="./css/resetCSS.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/surveyResult.css" />
+  </head>
+  <body>
+    <!-- 헤더(top bar) -->
+    <header class="top-bar">
+      <p class="user">사용자 님</p>
+      <div>
+        <img
+          src="./img/AnonymousProfile_60x60.png"
+          alt="img"
+          class="img-AnonymousProfile"
+        />
+      </div>
+      <p class="logout">로그아웃</p>
+    </header>
+    <!-- 네비게이션 바 -->
+    <nav class="top-bar">
+      <div class="container">
+        <div>
+          <h1>Green Shield</h1>
+          <!-- 차후 로고 추가 예정 <img src="" alt="img" /> -->
+        </div>
+        <div class="nav-list">
+          <a href="" class="selected">환경 호르몬 노출 평가</a>
+          <a href="">맞춤형 계획표</a>
+          <a href="">커뮤니티</a>
+          <a href="">추천 상품</a>
+          <a href="">전문가 상담/예약</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- 설문조사 결과 페이지 -->
+    <section>
+      <h1 class="page-name">분석 결과</h1>
+      <div class="result-container">
+        <div class="profile">
+          <div class="profile-img">
+            <img
+              src="./img/back_anonymousProfile_surveyResult_116x116.png"
+              alt="img"
+            />
+          </div>
+          <p>닉네임</p>
+        </div>
+        <div class="score">
+          <p>나의 점수</p>
+          <h4><span>13점</span>/50점</h4>
+        </div>
+        <div class="graph-container">
+          <div class="graph"></div>
+          <p>26%</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 투두리스트 컴포넌트 -->
+    <section>
+      <h1 class="page-name">해야 할 일 리스트</h1>
+    </section>
+  </body>
+</html>
