@@ -14,7 +14,11 @@
     <header class="top-bar">
       <p class="user">사용자 님</p>
       <div>
-        <img src="./img/AnonymousProfile_60x60.png" alt="img" class="img-AnonymousProfile" />
+        <img
+          src="./img/AnonymousProfile_60x60.png"
+          alt="img"
+          class="img-AnonymousProfile"
+        />
       </div>
       <p class="logout">로그아웃</p>
     </header>
@@ -35,21 +39,33 @@
       </div>
     </nav>
 
+    <!-- 설문조사 결과 페이지 -->
     <section>
       <h1 class="page-name">분석 결과</h1>
-      <div>
-        <div>
-          <div>
-            <img src="" alt="" />
+      <div class="result-container">
+        <div class="profile">
+          <div class="profile-img">
+            <img
+              src="./img/back_anonymousProfile_surveyResult_116x116.png"
+              alt="img"
+            />
           </div>
           <p>닉네임</p>
         </div>
-        <div>
+        <div class="score">
           <p>나의 점수</p>
           <h4><span>13점</span>/50점</h4>
         </div>
-        <div>원형그래프</div>
+        <div class="graph-container">
+          <div class="graph"></div>
+          <p>26%</p>
+        </div>
       </div>
+    </section>
+
+    <!-- 투두리스트 컴포넌트 -->
+    <section>
+      <h1 class="page-name">해야 할 일 리스트</h1>
     </section>
   </body>
 </html>
