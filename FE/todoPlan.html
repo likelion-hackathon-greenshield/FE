@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- reset css입니다. 우선순위 문제로 개별 페이지 css는 아래쪽에 배치해주세요.(아래쪽이 더 높은 우선순위) -->
+    <link rel="stylesheet" href="./css/resetCSS.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/todoPlan.css" />
+  </head>
+  <body>
+    <!-- 헤더(top bar) -->
+    <header class="top-bar">
+      <p class="user">사용자 님</p>
+      <div>
+        <img
+          src="./img/AnonymousProfile_60x60.png"
+          alt="img"
+          class="img-AnonymousProfile"
+        />
+      </div>
+      <p class="logout">로그아웃</p>
+    </header>
+    <!-- 네비게이션 바 -->
+    <nav class="top-bar">
+      <div class="container">
+        <div>
+          <h1>Green Shield</h1>
+          <!-- 차후 로고 추가 예정 <img src="" alt="img" /> -->
+        </div>
+        <div class="nav-list">
+          <a href="" class="selected">환경 호르몬 노출 평가</a>
+          <a href="">맞춤형 계획표</a>
+          <a href="">커뮤니티</a>
+          <a href="">추천 상품</a>
+          <a href="">전문가 상담/예약</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- 맞춤형 계획표 -->
+    <section>
+      <h1 class="page-name">맞춤형 계획표</h1>
+      <div class="container">
+        <!-- 투두리스트 -->
+        <section class="todo-list">
+          <div class="clip"></div>
+          <div class="circle-left"></div>
+          <div class="circle-right"></div>
+          <form class="todo-list">
+            <!-- id는 for와 같게 -->
+            <div class="list">
+              <input id="list1" class="list-checkbox" type="checkbox" />
+              <label for="list1" class="list-content">손 자주 씻기</label>
+            </div>
+            <div class="list">
+              <input id="list2" class="list-checkbox" type="checkbox" />
+              <label for="list2" class="list-content"
+                >손 자주 씻기손 자주 씻기손 자주 씻기손 자주 씻기손 자주 씻기손
+                자주 씻기손 자주 씻기</label
+              >
+            </div>
+            <div class="list">
+              <input id="list3" class="list-checkbox" type="checkbox" />
+              <label for="list3" class="list-content">손 자주 씻기</label>
+            </div>
+          </form>
+        </section>
+
+        <!-- 분석 결과 그래프 -->
+        <section class="chart">
+          <!-- 막대 그래프 -->
+          <div class="chart">
+            <h4 class="chart-name">Weekly Overview</h4>
+            <p class="chart-date">Aug 1 - Aug 7</p>
+            <ul class="bar1">
+              <li style="height: 42px; background-color: #5a976b"></li>
+              <li style="height: 62px; background-color: #5a976b"></li>
+              <li style="height: 36px; background-color: #5a976b"></li>
+              <li style="height: 100px; background-color: #5a976b"></li>
+              <li style="height: 86px; background-color: #bae3b3"></li>
+              <li style="height: 86px"></li>
+              <li style="height: 86px"></li>
+            </ul>
+            <ul class="bar1-x-axis">
+              <li>M</li>
+              <li>T</li>
+              <li>W</li>
+              <li>T</li>
+              <li>F</li>
+              <li>S</li>
+              <li>S</li>
+            </ul>
+            <div class="line"></div>
+            <div class="state">
+              <div class="icon-smile">
+                <img
+                  class="icon-smile"
+                  src="./img/iconSmile_todoPlan_33x33.png"
+                  alt="img"
+                />
+              </div>
+              <div>
+                <h4 class="state">You're doing good!</h4>
+                <p class="state">어제보다 좋아졌어요</p>
+              </div>
+            </div>
+          </div>
+          <!-- 곡선 그래프 -->
+          <div class="chart">
+            <h4 class="chart-name">Weekly Overview</h4>
+            <p class="chart-date">Aug 1 - Aug 7</p>
+            <ul class="bar2">
+              <li>그래프</li>
+            </ul>
+            <ul class="bar2-x-axis">
+              <li>월</li>
+            </ul>
+          </div>
+        </section>
+      </div>
+    </section>
+  </body>
+</html>
