@@ -12,6 +12,12 @@ div.container {
   justify-content: center;
   align-items: center;
 }
+section.todo-list {
+  margin: 0 48px;
+}
+section.chart {
+  margin: 0 48px;
+}
 /* 투두리스트 */
 div.clip {
   width: 530px;
@@ -68,7 +74,29 @@ input.list-checkbox {
   width: 36px;
   height: 36px;
   vertical-align: top;
+  opacity: 0;
 }
+/* label.num {
+  display: inline-block;
+  margin: 6px;
+
+  width: 90px;
+  height: 90px;
+
+  font-weight: 900;
+  font-size: 36px;
+  text-align: center;
+  line-height: 86px;
+
+  border-radius: 16px;
+  background-color: white;
+  cursor: pointer;
+
+  transition: background-color 0.3s;
+}
+input.radioBTN:checked + label.num {
+  background-color: #bae3b3;
+} */
 label.list-content {
   margin: 4px 0 0 12px;
 
