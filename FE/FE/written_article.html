@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>내가 작성한 글</title>
+    <!-- reset css입니다. 우선순위 문제로 개별 페이지 css는 아래쪽에 배치해주세요.(아래쪽이 더 높은 우선순위) -->
+    <link rel="stylesheet" href="./css/resetCSS.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/written_article.css" />
+  </head>
+
+  <body>
+    <!-- 헤더(top bar) -->
+    <header class="top-bar">
+      <p class="user">사용자 님</p>
+      <div>
+        <img
+          src="./img/AnonymousProfile_60x60.png"
+          alt="img"
+          class="img-AnonymousProfile"
+        />
+      </div>
+      <p class="logout">로그아웃</p>
+    </header>
+    <!-- 네비게이션 바 -->
+    <nav class="top-bar">
+      <div class="container">
+        <div>
+          <h1>Green Shield</h1>
+          <!-- 차후 로고 추가 예정 <img src="" alt="img" /> -->
+        </div>
+        <div class="nav-list">
+          <a href="">환경 호르몬 노출 평가</a>
+          <a href="">맞춤형 계획표</a>
+          <a href="">커뮤니티</a>
+          <a href="">추천 상품</a>
+          <a href="">전문가 상담/예약</a>
+        </div>
+      </div>
+    </nav>
+
+    <!--mypage 시작-->
+    <div class="written_article">
+      <div class="written_article_text">내가 작성한 글</div>
+    </div>
+
+    <div class="article_all">
+      <div class="article_pro_box">
+        <div class="article_profile">
+          <img src="./img/olivia.png" width="80" height="80" />
+        </div>
+
+        <div class="article_box">
+          <div class="name">Olivia</div>
+          <div class="date">July 15, 2024, 13:25 a.m.</div>
+          <div class="text">
+            바쁜 아침에 식사 대용으로 마실 수 있는 건강한 쉐이크를 찾고 있어요"
+            맛도 좋고 영양가도 높은 제품이 있다면 추천 부탁드립니다!
+          </div>
+          <div class="article_post_picture">
+            <img src="./img/pic1.png" width="400" height="180" />
+          </div>
+        </div>
+      </div>
+
+      <div class="bottom_all">
+        <div class="bottom_1_and_2">
+          <div class="bottom_1">수정</div>
+          <div class="bottom_2">삭제</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

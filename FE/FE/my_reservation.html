@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>나의 예약 내역</title>
+    <!-- reset css입니다. 우선순위 문제로 개별 페이지 css는 아래쪽에 배치해주세요.(아래쪽이 더 높은 우선순위) -->
+    <link rel="stylesheet" href="./css/resetCSS.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/my_reservation.css" />
+  </head>
+
+  <body>
+    <!-- 헤더(top bar) -->
+    <header class="top-bar">
+      <p class="user">사용자 님</p>
+      <div>
+        <img
+          src="./img/AnonymousProfile_60x60.png"
+          alt="img"
+          class="img-AnonymousProfile"
+        />
+      </div>
+      <p class="logout">로그아웃</p>
+    </header>
+    <!-- 네비게이션 바 -->
+    <nav class="top-bar">
+      <div class="container">
+        <div>
+          <h1>Green Shield</h1>
+          <!-- 차후 로고 추가 예정 <img src="" alt="img" /> -->
+        </div>
+        <div class="nav-list">
+          <a href="">환경 호르몬 노출 평가</a>
+          <a href="">맞춤형 계획표</a>
+          <a href="">커뮤니티</a>
+          <a href="">추천 상품</a>
+          <a href="">전문가 상담/예약</a>
+        </div>
+      </div>
+    </nav>
+
+    <!--mypage 시작-->
+    <div class="written_article">
+      <div class="written_article_text">나의 예약 내역</div>
+    </div>
+
+    <div class="pic_and_box">
+      <div class="expert_picture">
+        <img src="./img/expert1.png" width="500" height="500" />
+      </div>
+
+      <div class="box_all">
+        <div class="date_box">
+          <div class="date_text">예약 날짜: 년. 월. 일. 시간</div>
+        </div>
+
+        <div class="expert_box">
+          <div class="expert_text">전문가: John Wilson</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
