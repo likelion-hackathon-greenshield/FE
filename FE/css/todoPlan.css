@@ -69,34 +69,37 @@ form.todo-list {
 }
 div.list {
   margin: 24px 0;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 input.list-checkbox {
+  /* width: 36px;
+  height: 36px;
+  vertical-align: top; */
+  opacity: 0;
+}
+label.list-checkbox {
+  display: inline-block;
+
   width: 36px;
   height: 36px;
   vertical-align: top;
+
+  border: 2px solid #dadada;
+  border-radius: 5px;
+  background-color: white;
+}
+img.list-checkbox {
+  margin: 0;
+  width: 36px;
+  height: 36px;
   opacity: 0;
 }
-/* label.num {
-  display: inline-block;
-  margin: 6px;
-
-  width: 90px;
-  height: 90px;
-
-  font-weight: 900;
-  font-size: 36px;
-  text-align: center;
-  line-height: 86px;
-
-  border-radius: 16px;
-  background-color: white;
-  cursor: pointer;
-
-  transition: background-color 0.3s;
+input.list-checkbox:checked + label img.list-checkbox {
+  opacity: 1;
 }
-input.radioBTN:checked + label.num {
-  background-color: #bae3b3;
-} */
 label.list-content {
   margin: 4px 0 0 12px;
 
@@ -213,12 +216,68 @@ p.state {
   color: rgba(0, 0, 0, 0.5);
 }
 /* 분석 결과 곡선 그래프 */
+div.chart-margin {
+  margin: 0 0 -130px 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 ul.bar2 {
-  margin: 12px 0 16px 0;
+  margin: 24px 0 16px 0;
   padding: 0;
-  width: 290px;
+  width: 380px;
 
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+}
+ul.bar2 li {
+  list-style-type: none;
+
+  width: 40px;
+  height: 128px;
+
+  background-color: #f69d3c;
+  background: linear-gradient(180deg, #ffffff 0%, #f3faed 100%);
+}
+ul.bar2-x-axis {
+  margin: 0;
+  padding: 0;
+  width: 380px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul.bar2-x-axis li {
+  width: 40px;
+
+  list-style-type: none;
+  font-weight: 500;
+  font-size: 15px;
+  text-align: center;
+
+  color: black;
+  opacity: 0.5;
+}
+div.bar2-line {
+  position: relative;
+  bottom: 180px;
+
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: 388px;
+  height: 130px;
+  /* background-color: #cad8db; */
+}
+svg.bar2-line {
+  width: 388px;
+  height: 130px;
+}
+path.bar2-line {
+  border-radius: 24px;
+  /* clip-path: path("M 00 300 \ C 150 300 150 50 300 50 Z"); */
 }
