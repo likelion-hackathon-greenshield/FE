@@ -55,7 +55,7 @@ div.circle-right {
 }
 form.todo-list {
   box-sizing: border-box;
-  padding: 68px 48px;
+  padding: 68px 48px 48px 48px;
   width: 530px;
   /* height: 678px; */
 
