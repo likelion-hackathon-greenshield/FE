@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- reset css입니다. 우선순위 문제로 개별 페이지 css는 아래쪽에 배치해주세요.(아래쪽이 더 높은 우선순위) -->
+    <link rel="stylesheet" href="./css/resetCSS.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/survey.css" />
+  </head>
+  <body>
+    <!-- 헤더(top bar) -->
+    <header class="top-bar">
+      <p class="user">사용자 님</p>
+      <div>
+        <img
+          src="./img/AnonymousProfile_60x60.png"
+          alt="img"
+          class="img-AnonymousProfile"
+        />
+      </div>
+      <p class="logout">로그아웃</p>
+    </header>
+    <!-- 네비게이션 바 -->
+    <nav class="top-bar">
+      <div class="container">
+        <div>
+          <h1>Green Shield</h1>
+          <!-- 차후 로고 추가 예정 <img src="" alt="img" /> -->
+        </div>
+        <div class="nav-list">
+          <a href="" class="selected">환경 호르몬 노출 평가</a>
+          <a href="">맞춤형 계획표</a>
+          <a href="">커뮤니티</a>
+          <a href="">추천 상품</a>
+          <a href="">전문가 상담/예약</a>
+        </div>
+      </div>
+    </nav>
+    <!-- 설문조사 페이지 -->
+    <section>
+      <!-- 문항 하나 -->
+      <div class="question-item">
+        <p class="question">1. 플라스틱과 일회용품을 자주 사용하지 않는다.</p>
+        <form class="question">
+          <!-- for는 id와 같게 -->
+          <div class="input-container">
+            <input
+              type="radio"
+              class="radioBTN"
+              name="question1"
+              value=""
+              id="score11"
+            />
+            <label class="num" for="score11">1</label>
+            <span class="ko">전혀 아니다</span>
+          </div>
+          <div class="input-container">
+            <input
+              type="radio"
+              class="radioBTN"
+              name="question1"
+              value=""
+              id="score12"
+            />
+            <label class="num" for="score12">2</label>
+            <span class="ko">아니다</span>
+          </div>
+          <div class="input-container">
+            <input
+              type="radio"
+              class="radioBTN"
+              name="question1"
+              value=""
+              id="score13"
+            />
+            <label class="num" for="score13">3</label>
+            <span class="ko">중간</span>
+          </div>
+          <div class="input-container">
+            <input
+              type="radio"
+              class="radioBTN"
+              name="question1"
+              value=""
+              id="score14"
+            />
+            <label class="num" for="score14">4</label>
+            <span class="ko">그렇다</span>
+          </div>
+          <div class="input-container">
+            <input
+              type="radio"
+              class="radioBTN"
+              name="question1"
+              value=""
+              id="score15"
+            />
+            <label class="num" for="score15">5</label>
+            <span class="ko">매우 그렇다</span>
+          </div>
+        </form>
+        <p class="tip">
+          tip. 종이컵의 코팅 물질에서 비스페놀A가 나오기 때문에 사용을 자제하는
+          것이 좋다.
+        </p>
+      </div>
+
+      <!-- 문항 하나 -->
+      <div class="question-item">
+        <p class="question">1. 플라스틱과 일회용품을 자주 사용하지 않는다.</p>
+        <form class="question">
+          <!-- for는 id와 같게 -->
+          <div class="input-container">
+            <input
+              type="radio"
+              class="radioBTN"
+              name="question2"
+              value=""
+              id="score21"
+            />
+            <label class="num" for="score21">1</label>
+            <span class="ko">전혀 아니다</span>
+          </div>
+          <div class="input-container">
+            <input
+              type="radio"
+              class="radioBTN"
+              name="question2"
+              value=""
+              id="score22"
+            />
+            <label class="num" for="score22">2</label>
+            <span class="ko">아니다</span>
+          </div>
+          <div class="input-container">
+            <input
+              type="radio"
+              class="radioBTN"
+              name="question2"
+              value=""
+              id="score23"
+            />
+            <label class="num" for="score23">3</label>
+            <span class="ko">중간</span>
+          </div>
+          <div class="input-container">
+            <input
+              type="radio"
+              class="radioBTN"
+              name="question2"
+              value=""
+              id="score24"
+            />
+            <label class="num" for="score24">4</label>
+            <span class="ko">그렇다</span>
+          </div>
+          <div class="input-container">
+            <input
+              type="radio"
+              class="radioBTN"
+              name="question2"
+              value=""
+              id="score25"
+            />
+            <label class="num" for="score25">5</label>
+            <span class="ko">매우 그렇다</span>
+          </div>
+        </form>
+        <p class="tip">
+          tip. 종이컵의 코팅 물질에서 비스페놀A가 나오기 때문에 사용을 자제하는
+          것이 좋다.
+        </p>
+      </div>
+
+      <button class="submit">제출</button>
+      <!-- 위 제출은 Tip의 경우 삭제 -->
+    </section>
+  </body>
+</html>

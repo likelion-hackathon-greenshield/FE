@@ -7,7 +7,7 @@
     <!-- reset css입니다. 우선순위 문제로 개별 페이지 css는 아래쪽에 배치해주세요.(아래쪽이 더 높은 우선순위) -->
     <link rel="stylesheet" href="./css/resetCSS.css" />
     <link rel="stylesheet" href="./css/header.css" />
-    <link rel="stylesheet" href="./css/todoPlan.css" />
+    <link rel="stylesheet" href="./css/surveyResultPlus.css" />
   </head>
   <body>
     <!-- 헤더(top bar) -->
@@ -30,8 +30,8 @@
           <!-- 차후 로고 추가 예정 <img src="" alt="img" /> -->
         </div>
         <div class="nav-list">
-          <a href="">환경 호르몬 노출 평가</a>
-          <a href="" class="selected">맞춤형 계획표</a>
+          <a href="" class="selected">환경 호르몬 노출 평가</a>
+          <a href="">맞춤형 계획표</a>
           <a href="">커뮤니티</a>
           <a href="">추천 상품</a>
           <a href="">전문가 상담/예약</a>
@@ -39,9 +39,8 @@
       </div>
     </nav>
 
-    <!-- 맞춤형 계획표 -->
+    <!-- 설문조사 결과 페이지 - 구독 -->
     <section>
-      <h1 class="page-name">맞춤형 계획표</h1>
       <div class="container">
         <!-- 투두리스트 -->
         <section class="todo-list">
@@ -93,87 +92,47 @@
         <section class="chart">
           <!-- 막대 그래프 -->
           <div class="chart">
-            <h4 class="chart-name">Weekly Overview</h4>
-            <p class="chart-date">Aug 1 - Aug 7</p>
-            <ul class="bar1">
-              <li style="height: 42px; background-color: #5a976b"></li>
-              <li style="height: 62px; background-color: #5a976b"></li>
-              <li style="height: 36px; background-color: #5a976b"></li>
-              <li style="height: 100px; background-color: #5a976b"></li>
-              <li style="height: 86px; background-color: #bae3b3"></li>
-              <li style="height: 86px"></li>
-              <li style="height: 86px"></li>
+            <h4 class="chart-name">평가 분석</h4>
+            <ul class="bar1-y-axis">
+              <li>
+                <p class="chart-score">5점</p>
+                <div class="line"></div>
+              </li>
+              <li>
+                <p class="chart-score">3점</p>
+                <div class="line"></div>
+              </li>
+              <li>
+                <p class="chart-score">1점</p>
+                <div class="line"></div>
+              </li>
             </ul>
             <ul class="bar1-x-axis">
-              <li>M</li>
-              <li>T</li>
-              <li>W</li>
-              <li>T</li>
-              <li>F</li>
-              <li>S</li>
-              <li>S</li>
+              <li>1</li>
+              <li>2</li>
+              <li>3</li>
+              <li>4</li>
+              <li>5</li>
+              <li>6</li>
+              <li>7</li>
+              <li>8</li>
+              <li>9</li>
+              <li>10</li>
             </ul>
-            <div class="line"></div>
-            <div class="state">
-              <div class="icon-smile">
-                <img
-                  class="icon-smile"
-                  src="./img/iconSmile_todoPlan_33x33.png"
-                  alt="img"
-                />
-              </div>
-              <div>
-                <h4 class="state">You're doing good!</h4>
-                <p class="state">어제보다 좋아졌어요</p>
-              </div>
-            </div>
-          </div>
-          <!-- 곡선 그래프 -->
-          <div class="chart">
-            <div class="chart-margin">
-              <h4 class="chart-name">Weekly Overview</h4>
-              <p class="chart-date">Aug 1 - Aug 7</p>
-              <ul class="bar2">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-              </ul>
-              <ul class="bar2-x-axis">
-                <li>Jan</li>
-                <li>Mar</li>
-                <li>May</li>
-                <li style="color: #5a976b">Jul</li>
-              </ul>
-              <!-- round된 곡선 끝 보이도록 5정도 여유분 두기 -->
-              <div class="bar2-line">
-                <svg class="bar2-line" viewBox="0 0 300 100">
-                  <path
-                    class="bar2-line"
-                    fill="none"
-                    stroke="#5A976B"
-                    stroke-width="4"
-                    stroke-linecap="round"
-                    d="
-                       M 03 96
-                       C 10 96 20 72 30 72
-                       C 40 72 50 42 60 42
-                       C 70 42 80 60 90 60
-                       C 100 60 110 42 120 42
-                       C 130 42 140 64 150 64
-                       C 160 64 170 34 180 34
-                       C 190 34 200 20 210 20
-                       C 220 20 230 56 240 56
-                       C 250 56 260 4 270 4
-                       C 280 4 290 20 297 20
-                     "
-                  />
-                </svg>
-              </div>
-            </div>
+            <ul class="bar1">
+              <!-- 1점에 64px -->
+              <li style="height: 64px; background-color: #e5ede4"></li>
+              <li style="height: 128px; background-color: #bae3b3"></li>
+              <li style="height: 128px; background-color: #bae3b3"></li>
+              <li style="height: 64px; background-color: #e5ede4"></li>
+              <li style="height: 192px; background-color: #bae3b3"></li>
+              <li style="height: 128px; background-color: #bae3b3"></li>
+              <li style="height: 256px; background-color: #5a976b"></li>
+              <li style="height: 192px; background-color: #bae3b3"></li>
+              <li style="height: 128px; background-color: #bae3b3"></li>
+              <li style="height: 256px; background-color: #5a976b"></li>
+            </ul>
+            <button class="chart">Details</button>
           </div>
         </section>
       </div>
