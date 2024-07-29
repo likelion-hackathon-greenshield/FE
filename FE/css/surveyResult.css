@@ -115,7 +115,7 @@ div.circle-left {
   height: 12px;
 
   position: relative;
-  right: 360px; /* +380px */
+  right: 360px; /* left 28px */
   bottom: 32px;
   z-index: 1;
 
@@ -127,7 +127,7 @@ div.circle-right {
   height: 12px;
 
   position: relative;
-  left: 360px; /*  */
+  left: 360px; /* left 490px */
   bottom: 44px;
   z-index: 1;
 

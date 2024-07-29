@@ -20,6 +20,13 @@ form.question {
   justify-content: space-between;
   align-items: center;
 }
+p.tip {
+  margin: 30px 0 -20px 0;
+  font-weight: 900;
+  font-size: 20px;
+
+  color: #5a976b;
+}
 /* 라디오 버튼 컨테이너 */
 div.input-container {
   width: 102px;
